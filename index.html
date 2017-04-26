@@ -5,9 +5,48 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Survey</title>
   </head>
   <body>
-
+    <div class="container">
+      <h1>Fill in the blanks to write your story!</h1>
+      <div id="survey">
+        <form>
+        <div class="form-group">
+          <label for="name">A name</label>
+          <input id="name" class="form-control" type="text" placeholder="Name">
+        </div>
+        <h1>Now pick your favorite</h1>
+      <!--end name, begin beverage section-->
+        <select class="form-control" id="beer">
+          <option>IPA</option>
+          <option>Stout</option>
+          <option>Pale Ales</option>
+          <option>Pilsner</option>
+          <option>Amber</option>
+          <option>Malt Liquor</option>
+        </select>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="snickers" checked>
+            Snickers
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="twix">
+            Twix
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="butterfinger">
+            Butterfinger
+          </label>
+        </div>
+        
+        </form>
+      </div>
+    </div>
   </body>
 </html>
